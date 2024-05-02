@@ -1,0 +1,81 @@
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.entrar{
+  background-color: red;
+  color: #fff;
+  margin: 10px 1100px 10px;
+  transition: inherit;
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-radius: 0.1875rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  min-height: 2rem;
+  box-sizing: border-box;
+}
+h1{
+  color: white;
+  position: absolute;
+  inset: 180px 20px 20px 280px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 45px;
+}
+h2{
+  color: white;
+  position: absolute;
+  inset: 240px 20px 20px 400px;
+  font-size: 30px;
+}
+h3{
+  color: #fff;
+  position: absolute;
+  inset: 280px 20px 20px 380px;
+  font-size: 22px;
+}
+.containerr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.registro {
+  background-color: red;
+  color: #fff; 
+  border: none;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer; 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  margin-left: -5px;
+  margin-top: -2px;
+}
+.email{
+  padding: 10px;
+  margin-right: 5px;
+  flex: 1;
+  background-color: darkgray;
+  color: #708090;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  padding: 1.5rem 1rem 0.5rem;
+  border-radius: 10px;
+  min-height: 16px;
+  min-width: 16px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 320px 380px 150px;
+}
+.logo {
+  margin-bottom: 10px;
+}
